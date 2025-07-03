@@ -1,19 +1,21 @@
-# Project 03: SonicParanoid-style Ortholog Inference
+# Project 02: SimPlot++ Similarity Analysis
 
 **Description:**
-This project simulates basic ortholog inference using the concept of reciprocal best hits (RBH), inspired by tools like SonicParanoid.
+Simulates a simplified SimPlot++ analysis by computing sequence similarity between a query and reference sequence using a sliding window approach.
 
 **How it works:**
-- Parses pairwise BLAST output files between species in tabular format.
-- Identifies reciprocal best hits as candidate orthologous genes.
+- Reads two DNA sequences (query and reference).
+- Compares them using a sliding window to calculate percent identity.
+- Plots the similarity curve using matplotlib.
 
 **Files:**
-- `speciesA_vs_speciesB.tsv`: BLAST results from species A to B.
-- `speciesB_vs_speciesA.tsv`: BLAST results from species B to A.
-- `03_sonicparanoid_orthologs.py`: Script to infer orthologs using RBH.
+- `query.fasta`: Query sequence.
+- `reference.fasta`: Reference sequence.
+- `02_simplot_similarity.py`: Python script to calculate and plot similarities.
 
 **Requirements:**
 - Python
-- pandas
+- Biopython
+- matplotlib
 
-**Note:** User must provide real BLAST result files in tab-delimited format.
+**Note:** Example FASTA files must be supplied by the user.
