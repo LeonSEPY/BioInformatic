@@ -1,3 +1,3 @@
-# Project 04: GC Content Calculator
+# Project 05: Simple Alignment (Needleman-Wunsch)
 
-Calculates the percentage of G and C bases in a DNA sequence.
+Implements global alignment using the Needleman-Wunsch algorithm.
