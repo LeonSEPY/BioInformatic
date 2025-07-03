@@ -1,3 +1,3 @@
-# Project 08: Mutation Simulator
+# Project 09: Genomic Region Class
 
-Introduces random point mutations into a DNA sequence.
+Defines a class to represent genomic regions with name, start, end, and strand.
