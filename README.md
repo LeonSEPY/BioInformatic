@@ -1,3 +1,3 @@
-# Project 02: Transcription and Translation
+# Project 03: Pattern Count
 
-Transcribes a DNA sequence to RNA and translates it into a protein using Biopython.
+Counts how many times a user-defined pattern appears in the DNA sequence.
