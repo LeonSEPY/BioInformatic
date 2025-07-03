@@ -1,3 +1,3 @@
-# Project 03: Pattern Count
+# Project 04: GC Content Calculator
 
-Counts how many times a user-defined pattern appears in the DNA sequence.
+Calculates the percentage of G and C bases in a DNA sequence.
