@@ -1,3 +1,3 @@
-# Project 09: Genomic Region Class
+# Project 10: Sequence Plot
 
-Defines a class to represent genomic regions with name, start, end, and strand.
+Plots the frequency of each nucleotide using matplotlib.
