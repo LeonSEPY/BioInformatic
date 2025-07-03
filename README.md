@@ -1,3 +1,3 @@
-# Project 07: Dot Plot Visualizer
+# Project 08: Mutation Simulator
 
-Generates a dot plot comparing two DNA sequences using matplotlib.
+Introduces random point mutations into a DNA sequence.
