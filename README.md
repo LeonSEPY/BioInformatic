@@ -1,3 +1,3 @@
-# Project 05: Simple Alignment (Needleman-Wunsch)
+# Project 06: FASTA Reader
 
-Implements global alignment using the Needleman-Wunsch algorithm.
+Reads and prints basic information from a FASTA file.
