@@ -1,3 +1,3 @@
-# Project 06: FASTA Reader
+# Project 07: Dot Plot Visualizer
 
-Reads and prints basic information from a FASTA file.
+Generates a dot plot comparing two DNA sequences using matplotlib.
