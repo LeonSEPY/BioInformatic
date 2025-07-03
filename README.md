@@ -1,21 +1,20 @@
-# Project 02: SimPlot++ Similarity Analysis
+# Project 01: HTSeq 2.0 Read Counting
 
 **Description:**
-Simulates a simplified SimPlot++ analysis by computing sequence similarity between a query and reference sequence using a sliding window approach.
+This project demonstrates how to use HTSeq 2.0 to count reads mapped to genes from RNA-Seq data. It uses a GTF annotation file and a BAM alignment file as inputs.
 
 **How it works:**
-- Reads two DNA sequences (query and reference).
-- Compares them using a sliding window to calculate percent identity.
-- Plots the similarity curve using matplotlib.
+- Reads gene annotation from a GTF file.
+- Loads aligned reads from a BAM file.
+- Maps reads to genes and counts the number of hits per gene.
 
 **Files:**
-- `query.fasta`: Query sequence.
-- `reference.fasta`: Reference sequence.
-- `02_simplot_similarity.py`: Python script to calculate and plot similarities.
+- `example.gtf`: Gene annotation file (GTF format).
+- `example.bam`: Aligned sequencing reads (BAM format).
+- `01_htseq_analysis.py`: Main script to perform counting.
 
 **Requirements:**
 - Python
-- Biopython
-- matplotlib
+- HTSeq 2.0 (`pip install HTSeq`)
 
-**Note:** Example FASTA files must be supplied by the user.
+**Note:** Sample files are not included. You need to supply valid `.gtf` and `.bam` files to run this script.
