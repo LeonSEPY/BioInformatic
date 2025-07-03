@@ -1,3 +1,3 @@
-# Project 01: Nucleotide Counter
+# Project 02: Transcription and Translation
 
-Reads a DNA sequence from a FASTA file and counts how many times each nucleotide (A, T, C, G) appears.
+Transcribes a DNA sequence to RNA and translates it into a protein using Biopython.
